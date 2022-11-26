@@ -100,21 +100,7 @@ $ch = curl_init();
       $res = curl_exec($ch);
 return $res;
 }
-   function bn1(){
-system("clear");                                                                             
-echo jocker("  \033[1;97mDate :".date(" D m Y "));
-echo jocker("                             \033[1;97mTime :".date(" H:i:s "));
-echo jocker("\033[1;97m\n──────────────────────────────────────────────────────────────────\n");
-echo jocker("\033[1;31m     __   _______         ______          _                  \n");
-echo jocker("\033[1;31m     \ \ / /  __ \       |  ____|        | |                 \n");
-echo jocker("\033[1;31m      \ V /| |  | |______| |__ __ _ _ __ | |_ __ _ ___ _   _ \n");
-echo jocker("\033[1;31m       > < | |  | |______|  __/ _` | '_ \| __/ _` / __| | | |\n");
-echo jocker("\033[1;97m      / . \| |__| |      | | | (_| | | | | || (_| \__ \ |_| |\n");
-echo jocker("\033[1;97m     /_/ \_\_____/       |_|  \__,_|_| |_|\__\__,_|___/\__, |\n");
-echo jocker("\033[1;97m                                                        __/ |\n");
-echo jocker("\033[1;97m                                                       |___/ \n");
-echo jocker("\033[1;97m\n──────────────────────────────────────────────────────────────────\n");                                                  
- }
+
     function bn2(){
    $res = url("https://api.myip.com");
 $ip=explode('",',explode('ip":"',$res)[1])[0];
