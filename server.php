@@ -8,7 +8,7 @@ Gambar#multicoins:on|
 #onlarnediyo:on|
 #coinadster:on|
 #ducktycrob:on|
-#luckydice:on|
+#luckydice:off|
 #gardencash:off|
 #topfaucet:on|
 #harscoin:on|
